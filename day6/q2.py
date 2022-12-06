@@ -5,7 +5,6 @@ class Marker:
         pass
 
     def add(self, value): # adds to the current marker and returns whether the new marker is a proper marker
-        isMarker = True
         if len(self.arr) < self.markerLen:
             self.arr.append(value)
             return False
